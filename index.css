@@ -1,0 +1,356 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: sans-serif;
+}
+.headerContainer{
+	display: flex;
+	width: 100%;
+	background-color: #180509;
+	gap: 2%;
+	justify-content: flex-start;
+	padding-right: ;
+	align-items: center;
+	padding-top: 2%;
+	padding-left: 45%;
+	padding-bottom: 2%;
+	font-size: 1vw;
+	position: fixed;
+}
+hr{
+	border:0.1vw solid #2c141c;
+}
+.header{
+	padding: 1% 1.5% 1%;
+	font-size: 1vw;
+	background: none;
+	color: white;
+	border-radius: 10vw;
+}
+a{
+	text-decoration: none;
+}
+
+.header:hover{
+	background-color: #909cac;
+}
+a#list{
+	color: gray;
+	padding: 1% 1.5% 1%;
+	background-color: white;
+	border-radius: 5vw;
+}
+a#list:hover{
+	background-color: #909cac;
+}
+.body{
+	text-align: center;
+	color: white;
+	background-color: #180509;
+}
+#active{
+	padding-top: 15vw;
+	font-size: 1vw;
+}
+#find{
+	padding-top: 1vw;
+	font-size: 3vw;
+}
+.dropdown{
+	margin-top: 1vw;
+	display: flex;
+	max-width: 80vw;
+	background-color: white;
+	justify-content: space-between;
+	margin-left: 10%;
+	max-height: 10vw;
+	border-radius: 0.5vw;
+	padding: 0 0 0 1vw;
+}
+.dropdown > input,a{
+	font-size: 1vw;
+	background: none;
+	border-radius: 0.5vw;
+}
+.line1{
+	margin-top: 1vw;
+	border-left: 0.2vw solid grey;
+  	height: 2vw;
+}
+select{
+	width: 17vw;
+	height: 4vw;
+	font-size: 1vw;
+	border: none;
+	outline: 0px;
+}
+#search{
+	background-color: #909cac;
+	padding: 1.5vw 6vw 1vw;
+	color: white;
+}
+.buttons{
+	margin-top: 4vw;
+	display: flex;
+	justify-content: center;
+	gap: 10vw;
+	font-size: 1vw;
+	padding-bottom: 9vw;
+}
+#button{
+	text-decoration: none;
+	color: white;
+}
+#img{
+	background-color: white;
+	border-radius: 100vw;
+	width: 4vw;
+}
+#img:hover{
+	background-color: #909cac;
+}
+#button:hover{
+	color: #909cac;
+}
+.popular{
+	padding-top: 2vw;
+	text-align: center;
+}
+#popCat{
+	font-size: 2.5vw;
+}
+#check{
+	margin-top: 1.5vw;
+	font-size: 1vw;
+	color: grey;
+	margin-bottom: 5vw;
+}
+.popBody{
+	display: flex;
+	justify-content: flex-start;
+	max-width: 76%;
+	background-color: #2b2d42;
+	margin-left: 12%;
+	border-radius: 1vw;
+	margin-bottom: 5vw;
+}
+.popLeft{
+	display: grid;
+	border-radius: 0;
+	gap: 0.1vw;
+}
+.leftEl{
+	display: flex;
+	align-items: center;
+	gap: 1vw;
+	padding: 2vw 4vw 2vw;
+	background-color: #8d99b1;
+	border-radius: 0;
+}
+#first{
+	border-radius: 1vw 0 0 0;
+	color: white;
+}
+#last{
+	border-radius: 0 0 0 1vw;
+	color: white;
+}
+.leftEl:hover{
+	background-color: #2b2d42;
+}
+.popMid{
+	margin-left: 2vw;
+	margin-top: 17vw;
+	color: white;
+	margin-right: 2vw;
+}
+.oneof{
+	font-size: 1.3vw;
+	margin-bottom: 3vw;
+}
+.sample{
+	font-size: 1vw;
+	margin-bottom: 3vw;
+}
+#discover{
+	color: gray;
+	padding: 1vw 7vw 1vw;
+	background-color: white;
+	border-radius: 0.6vw;
+}
+#discover:hover{
+	background-color: #8d99b1;
+	color: white;
+}
+.popRight{
+	padding-top: 13vw;
+}
+.popRight > img{
+	width: 30vw;
+}
+.recent{
+	text-align: center;
+}
+.listings{
+	display: grid;
+	gap: 1vw;
+
+}
+.list{
+	display: flex;
+	justify-content: flex-start;
+	background-color: #f7f7f7;
+	max-width: 70vw;
+	margin-left: 15vw;
+}
+.list:hover{
+	background-color: antiquewhite;
+}
+.listDetails{
+	padding: 3vw;
+	width: 17vw;
+}
+.listDetails > h2, h4{
+	margin-bottom: 2vw;
+}
+.listDetails > h2{
+	font-size: 1.2vw;
+}
+.listDetails > h4{
+	color: grey;
+	font-size: 1vw;
+}
+.listDetails > p{
+	margin-bottom: 1vw;
+	font-size: 1vw;
+}
+.list > img{
+	max-width: 25vw;
+}
+#dollar{
+	width: 1vw;
+}
+.details{
+	color: grey;
+}
+.review{
+	padding-left: 3vw;
+	padding-top: 3.12vw;
+	display: grid;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+.starr{
+	border: 0.2vw solid black;
+	padding: 0.1vw;
+	font-size: 1vw;
+}
+.stars > p{
+	font-size: 0.9vw;
+	color: white;
+}
+.stars > a{
+	color: black;
+}
+.stars{
+	display: flex;
+	gap: 0.1vw;
+	align-items: center;
+}
+#star1:hover{
+	background-color: yellow;
+}
+#star2:hover{
+	background-color: yellow;
+}
+#star3:hover{
+	background-color: yellow;
+}
+#star4:hover{
+	background-color: yellow;
+}
+#star5:hover{
+	background-color: yellow;
+}
+#revieww:hover{
+color: grey;
+}
+#contact{
+	margin-top: 8vw;
+	color: black;
+	background-color: white;
+	padding: 1vw;
+	text-align: center;
+}
+#contact:hover{
+	background-color: grey;
+}
+.page{
+	margin-top: 1vw;
+	font-size: 1vw;
+	display: flex;
+	justify-content: center;
+	gap: 1vw;
+	margin-bottom: 3vw;
+}
+.page > a{
+	color: grey;
+}
+.page > a:hover{
+	background-color: grey;
+}
+.contact{
+	display: flex;
+	margin-bottom: 5vw;
+}
+.contactt > p{
+
+}
+.leftCont{
+	display: grid;
+	padding-left: 10vw;
+	padding-top: 6vw;
+}
+.midCont{
+	display: grid;
+	padding-top: 10.3vw;
+	padding-right: 15vw;
+}
+.rightCont{
+	display: grid;
+	padding-top: 6vw;
+}
+.contactt{
+	display: flex;
+	font-size: 1.5vw;
+	color: grey;
+	gap: 5vw;
+}
+
+.midCont > a, .leftCont > a, .rightCont > a{
+	font-size: 1.5vw;
+	color: grey;
+	margin-bottom: 1vw;
+}
+.midCont > a:hover, .leftCont > a:hover, .rightCont > a:hover{
+	color: black;
+
+}
+.leftCont > h2, .rightCont > h2{
+	font-size: 2vw;
+	margin-bottom: 1.5vw;
+	color: #8d99b1;
+}
+.rightCont > p{
+	font-size: 1.5vw;
+	color: grey;
+}
+.copy{
+	margin-top: 2vw;
+	font-size: 1vw;
+	text-align: center;
+}
+.copy > p{
+	margin-bottom: 0.7vw;
+}
